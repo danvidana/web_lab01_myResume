@@ -4,44 +4,47 @@
   <head>
       <title>My Resume</title>
       <meta charset="UTF-8" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+
   </head>
   <body>
-      <header>
-          <h1>Daniel Alonso Vidana Ramirez</h1>
-          <address>Cima del Ramada 228, Cima de la Montana, Monterrey, Nuevo Leon</address>
-          <p>+52 8112732098</p>
-      </header>
-      <main>
-          <section>
-              <h3>Objective</h3>
-              <p>An Unreal Engine 4 developer postion located in your main offices.</p>
-              <img src="./img/unreal.png" alt="This is an Unreal Engine logo" style="width:100px;height:100px;">
-          </section>
-          <section>
-            <h3>Experience</h3>
-            <ul>
-                <li>
-                    <span>
+      <div class="main-container">
+        <header class="">
+            <h1>Daniel Alonso Vidana Ramirez</h1>
+            <address>Cima del Ramada 228, Cima de la Montana, Monterrey, Nuevo Leon</address>
+            <p>+52 8112732098</p>
+        </header>
+        <div class="arrange-columns">
+            <main>
+                <section class="objective-section">
+                    <div class="objective-column">
+                        <h3>Objective</h3>
+                        <p>An Unreal Engine 4 developer postion located in your main offices.</p>
+                    </div>
+                    <div class="objective-image">
+                        <img src="./img/unreal.png" alt="This is an Unreal Engine logo" style="width:100px;height:100px;">
+                    </div>
+                </section>
+                <section>
+                    <h3>Experience</h3>
+                    <div class="experience-def">
                         January 2020 - present
                         <div>
                             Working as Web Developer Jr. (Angular) for ANSER Technologies located in Monterrey, Nuevo Leon, Mexico.
                         </div>
-                    </span>
-                    <p>
-                        Main Activities:
-                    </p>
-                    <ol>
-                        <li>
+                        <p>
+                            Main Activities:
+                        </p>
+                        <div>
                             Front-end development in Angular and Bootstrap 4
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             Back-end development in AWS (DynamoDB, Lambda)
-                        </li>
-                    </ol>
-                </li>
-                <div>------------------------------------------------------------------------------------------------------------------</div>
-                <li>
-                    <span>
+                        </div>
+                    </div>
+                    <div class="horizontal-line"></div>
+                        
+                    <div class="experience-def">
                         August 2019 - January 2020
                         <div>
                             Working as Web Developer assistant for MetalGazette Ltd.
@@ -49,86 +52,75 @@
                         <div>
                             <a href="https://www.metalgazette.com/">MetalGazette</a>
                         </div>
-                    </span>
-                    <p>
-                        Main Activities:
-                    </p>
-                    <ol>
-                        <li>
+                        <p>
+                            Main Activities:
+                        </p>
+                        <div>
                             Front-end development in Angular
-                        </li>
-                        <li>
+                        </div>    
+                        <div>
                             Database management using mySQL and goDaddy Hosting
-                        </li>
-                    </ol>
-                </li>
-                <div>------------------------------------------------------------------------------------------------------------------</div>
-                <li>
-                    <span>
+                        </div>
+                    </div>
+                    <div class="horizontal-line"></div>
+
+                    <div class="experience-def">
                         February 2019 - August 2019
                         <div>
                             Back-end Developer and IT intern in O-I Packaging Solutions located in Dallas, Texas.
                         </div>
-                    </span>
-                    <p>
-                        Main Activities:
-                    </p>
-                    <ol>
-                        <li>
+                        <p>
+                            Main Activities:
+                        </p>
+                        <div>
                             Back-end development for a local logistics website (PHP-CodeIgniter Framework, jQuery)
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             Database management using MSSQL
-                        </li>
-                    </ol>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>Education</h3>
-            <ul>
-                <li>
-                    <span>
-                        August 2016 - present
+                        </div>
+                    </div>
+                </section>
+                <div class="horizontal-line"></div>
+                <section>
+                    <h3>Education</h3>
+                            <span>
+                                August 2016 - present
+                                <div>
+                                    Bachelor in Computer Science
+                                </div>
+                                <div>
+                                    Instituto Tecnologico y de Estudios Superiores de Monterrey
+                                </div>
+                            </span>
+                            <div class="horizontal-line-small"></div>
+                            <span>
+                                August 2013 - May 2016
+                                <div>
+                                    International Baccalaureate (Highschool Diploma)
+                                </div>
+                                <div>
+                                    Instituto Tecnologico y de Estudios Superiores de Monterrey (Prepa Tec Campus Cumbres)
+                                </div>
+                            </span>
+                </section>
+                <div class="horizontal-line"></div>
+                <section class="">
+                    <h3>Interests</h3>
                         <div>
-                            Bachelor in Computer Science
+                            Playing the piano (jazz)
                         </div>
                         <div>
-                            Instituto Tecnologico y de Estudios Superiores de Monterrey
-                        </div>
-                    </span>
-                </li>
-                <div>------------------------------------------------------------------------------------------------------------------</div>
-                <li>
-                    <span>
-                        August 2013 - May 2016
-                        <div>
-                            International Baccalaureate (Highschool Diploma)
+                            Composing electronic music
                         </div>
                         <div>
-                            Instituto Tecnologico y de Estudios Superiores de Monterrey (Prepa Tec Campus Cumbres)
+                            Horror and thriller movies
                         </div>
-                    </span>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>Interests</h3>
-            <ul>
-                <li>
-                    Playing the piano (jazz)
-                </li>
-                <li>
-                    Composing electronic music
-                </li>
-                <li>
-                    Horror and thriller movies
-                </li>
-                <li>
-                    Reading novels
-                </li>
-            </ul>
-        </section>
+                        <div>
+                            Reading novels
+                        </div>
+                </section>
+            </main>
+        </div>
         <footer>2020 ITESM</footer>
-      </main>
+      </div>
   </body>

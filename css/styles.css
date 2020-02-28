@@ -1,0 +1,44 @@
+body{
+    font-family : Verdana, sans-serif;
+    font-size : 14px;
+    color : white;
+    margin : 0;
+    padding : 0;
+    background-image: url(/img/pink_sunrise.jpg);
+    background-size: cover;
+}
+
+header, footer{
+    background-color: rgb(172, 28, 52);
+    padding-bottom: 5px;
+    color:white;
+    border: 1px solid #000000;
+    text-align: center;
+
+}
+
+h1{
+    margin: 0;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    border: 1px solid #000000;
+    background-color: rgba(172, 28, 52, 0.527);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer{
+    padding:10px;
+}
+
+.main-container{
+    margin: auto;
+}
+
+.horizontal-line, .horizontal-line-small{
+    border-top: 2px solid white;
+    margin: 20px;
+}
